@@ -1,6 +1,7 @@
-import flask
+from website import create_app
 
-msg = "Hello World"
+app = create_app()
 
 if __name__ == '__main__':
-    print(msg)
+
+    app.run(debug=True)
