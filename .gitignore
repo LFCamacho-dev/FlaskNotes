@@ -172,6 +172,7 @@ fabric.properties
 /.idea/
 /.vscode/
 /db/*
+*.db
 /UPDATE
 
 ### VisualStudioCode ###
